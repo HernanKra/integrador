@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+header{
+    border-top: 5px solid #fcee21;
+}
+
+.bg-yellow {
+  background-color: #fcee21;
+}
+
+.r-regular {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.r-bold {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.c {
+  font-family: "Coiny";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  height: 100px;
+  line-height: 50px;
+}
+
+nav h1 {
+  font-size: 56px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  padding: 25px;
+  padding-top: 0px;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#container-1 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#container-1 :nth-child(1) {
+  margin-top: 50px;
+}
+#container-1 div {
+  width: 50%;
+}
+
+#container-1 div h2 {
+  font-size: 64px;
+  line-height: 70px;
+}
+
+#container-1 div h2 span {
+  font-size: 117.33px;
+}
+
+#container-1 h3 {
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 35px;
+  font-size: 26.66px;
+}
+
+#container-1 p {
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-img img {
+  width: 90%;
+}
+
+/* FIN CSS CONTAINER 1 */
+
+#container-2 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#container-2 :nth-child(1) {
+  padding-right: 50px;
+}
+
+#container-2 h3 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 33px;
+  width: fit-content;
+}
+
+#container-2 p {
+  font-size: 32px;
+}
+
+#container-3 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  border-top: 1px solid black;
+  padding-top: 70px;
+}
+#container-3 div {
+  width: 50%;
+}
+
+#container-3 div img {
+  width: 80%;
+}
+
+#servicios {
+  font-size: 54.66px;
+  margin-top: 20px;
+  scroll-margin-block-start: 150px;
+}
+
+#container-3 div ol,
+li {
+  font-size: 32px;
+  padding: 15px;
+  font-family: "Roboto";
+  width: fit-content;
+}
+
+
+#container-4 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid black;
+    justify-content: space-between;
+}
+
+
+#container-4 h3 {
+    font-size: 68px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#container-4 h4 {
+    font-size: 44px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 35px;
+    margin-top: 50px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 50px;
+}
+
+#formulario label {
+    font-family: 'Roboto';
+    font-size: 26.66;
+    font-weight: bold;
+}
+
+#formulario input {
+    width: 90%;
+    height: 45px;
+    font-size: 26.66px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#formulario textarea {
+    width: 90%;
+    height: 250px;
+    font-family: 'Roboto';
+    font-size: 26.66px;;
+}
+
+.buttons {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: black;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #fcee21;
+    border: none;
+    color: black;
+}
+
+#container-5 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+#container-5 p {
+    width: 10%;
+    font-family: 'Roboto';
+    font-size: 33.3px;
+    color: #808080;
+}
+
+.redes {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.redes img {
+    width: 120px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contenedor-footer h2 {
+    font-size: 44px;
+}
+.contenedor-footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+    font-family: 'Roboto';
+    font-size: 28px;
+
+}

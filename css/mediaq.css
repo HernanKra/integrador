@@ -1,0 +1,80 @@
+@import url(style.css);
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #container-1 :nth-child(1) {
+    width: 100%;
+  }
+
+  .container-img img {
+    width: 300px;
+  }
+
+  #container-2 {
+    flex-direction: column;
+  }
+
+  #container-2 h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #container-3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #container-3 div {
+    width: 100%;
+    align-items: center;
+  }
+  #container-3 div ol {
+    text-align: start;
+  }
+
+  #container-4 {
+    flex-direction: column;
+  }
+
+  #formulario {
+    width: 100%;
+    align-items: center;
+ 
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  #container-5 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #container-5 p {
+    width: 100%;
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+    height: 120px
+  }
+  .contenedor-footer a {
+    margin: 0;
+  }
+}
